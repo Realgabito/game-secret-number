@@ -10,6 +10,7 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
+//Verificamos cuantos intentos lleva el usario
 function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
  
@@ -29,6 +30,7 @@ function verificarIntento() {
     return;
 } 
 
+//Removemos valores ingresados
 function limpiarCaja() {
     document.querySelector('#valorUsuario').value = '';
 }
